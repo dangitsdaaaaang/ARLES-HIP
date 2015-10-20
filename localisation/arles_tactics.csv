@@ -1,0 +1,18 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#Generic Skirmishes
+generic_skirmish_tactic;Scattered Skirmishes;;;;;;;;;;;;;x
+generic_melee_tactic;Pitched Battle;;;;;;;;;;;;;x
+basic_skirmish_tactic;Basic Manoeuvres;;;;;;;;;;;;;x
+moderate_skirmish_tactic;Tactical Manoeuvres;;;;;;;;;;;;;x
+advanced_skirmish_tactic;Brilliant Manoeuvres;;;;;;;;;;;;;x
+failed_skirmish_tactic;Failed Manoeuvring;;;;;;;;;;;;;x
+basic_melee_tactic;Basic Manoeuvres;;;;;;;;;;;;;x
+moderate_melee_tactic;Tactical Manoeuvres;;;;;;;;;;;;;x
+advanced_melee_tactic;Brilliant Manoeuvres;;;;;;;;;;;;;x
+failed_melee_tactic;Failed Manoeuvring;;;;;;;;;;;;;x
+#Crossbow Tactics
+crossbow_volley_tactic;Crossbow Massed Fire;;;;;;;;;;;;;x
+crossbow_pavise_tactic;Deploy Pavise Wall;;;;;;;;;;;;;x
+#Pikemen Tactics
+heroic_shout_tactic;Shoulder Pikes!;;;;;;;;;;;;;x
+wall_of_spears_tactic;Impenetrable Spear Wall;;;;;;;;;;;;;x

@@ -1,0 +1,26 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#Crossbowmen
+crossbowmen;Crossbowmen;;;;;;;;;;;;;x
+crossbowmen_offensive;Crossbowmen Offensive;;;;;;;;;;;;;x
+crossbowmen_defensive;Crossbowmen Defensive;;;;;;;;;;;;;x
+crossbowmen_morale;Crossbowmen Morale;;;;;;;;;;;;;x
+crossbowmen_modifier;Combat Modifier boost to Crossbowmen;;;;;;;;;;;;;x
+#Heavy Horse Archers
+heavyhorsearchers;Heavy Horse Archers;;;;;;;;;;;;;x
+heavyhorsearchers_offensive;Heavy Horse Archers Offensive;;;;;;;;;;;;;x
+heavyhorsearchers_defensive;Heavy Horse Archers Defensive;;;;;;;;;;;;;x
+heavyhorsearchers_morale;Heavy Horse Archers Morale;;;;;;;;;;;;;x
+heavyhorsearchers_modifier;Combat Modifier boost to Heavy Horse Archers;;;;;;;;;;;;;x
+#Mounted Crossbowmen
+mountedcrossbows;Mounted Crossbowmen;;;;;;;;;;;;;x
+mountedcrossbows_offensive;Mounted Crossbowmen Offensive;;;;;;;;;;;;;x
+mountedcrossbows_defensive;Mounted Crossbowmen Defensive;;;;;;;;;;;;;x
+mountedcrossbows_morale;Mounted Crossbowmen Morale;;;;;;;;;;;;;x
+mountedcrossbows_modifier;Combat Modifier boost to Mounted Crossbowmen;;;;;;;;;;;;;x
+#Heavy Mounted Crossbowmen
+heavymountedcrossbows;Heavy Mounted Crossbowmen;;;;;;;;;;;;;x
+heavymountedcrossbows_offensive;Heavy Mounted Crossbowmen Offensive;;;;;;;;;;;;;x
+heavymountedcrossbows_defensive;Heavy Mounted Crossbowmen Defensive;;;;;;;;;;;;;x
+heavymountedcrossbows_morale;Heavy Mounted Crossbowmen Morale;;;;;;;;;;;;;x
+heavymountedcrossbows_modifier;Combat Modifier boost to Heavy Mounted Crossbowmen;;;;;;;;;;;;;x
+

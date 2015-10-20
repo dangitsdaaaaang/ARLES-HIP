@@ -1,0 +1,257 @@
+heavy_horse_archer_volley_tactic = {
+	days = 4
+	sprite = 4
+	group = Heavy_Horse_Archer
+
+	trigger = {
+		phase = skirmish
+		heavyhorsearchers = 0.1
+	}
+
+	mean_time_to_happen = {
+		days = 5
+		modifier = {
+			factor = 0.1
+			flank_has_leader = yes
+			leader = {
+				martial = 10
+			}
+		}
+		modifier = {
+			factor = 1
+			flank_has_leader = yes
+			leader = {
+				martial = 15
+			}
+		}
+		modifier = {
+			factor = 1.75
+			flank_has_leader = yes
+			leader = {
+				martial = 20
+			}
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.2
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.3
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.4
+		}		
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.5
+		}		
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.6
+		}		
+	}
+
+	heavyhorsearchers_offensive = 8
+	change_phase_to = skirmish
+
+}
+
+
+heavy_horse_archer_gallant_charge_tactic = {
+	days = 1
+	sprite = 4
+	group = Heavy_Horse_Archer
+
+	trigger = {
+		phase = skirmish
+		heavyhorsearchers = 0.1
+	}
+
+	mean_time_to_happen = {
+		days = 10
+		modifier = {
+			factor = 0.1
+			flank_has_leader = yes
+			leader = {
+				martial = 10
+			}
+		}
+		modifier = {
+			factor = 1
+			flank_has_leader = yes
+			leader = {
+				martial = 15
+			}
+		}
+		modifier = {
+			factor = 1.75
+			flank_has_leader = yes
+			leader = {
+				martial = 20
+			}
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.2
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.3
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.4
+		}		
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.5
+		}		
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.6
+		}		
+	}
+
+	heavyhorsearchers_defensive = 4
+	change_phase_to = melee
+}
+heavy_horse_archer_vslliant_battle_tactic = {
+	days = 4
+	sprite = 4
+	group = Heavy_Horse_Archer
+
+	trigger = {
+		phase = melee
+		heavyhorsearchers = 0.1
+	}
+
+	mean_time_to_happen = {
+		days = 5
+		modifier = {
+			factor = 0.1
+			flank_has_leader = yes
+			leader = {
+				martial = 10
+			}
+		}
+		modifier = {
+			factor = 1
+			flank_has_leader = yes
+			leader = {
+				martial = 15
+			}
+		}
+		modifier = {
+			factor = 1.75
+			flank_has_leader = yes
+			leader = {
+				martial = 20
+			}
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.2
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.3
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.4
+		}		
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.5
+		}		
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.6
+		}		
+	}
+
+	heavyhorsearchers_offensive = 3
+	change_phase_to = melee
+
+}
+heavy_horse_archer_regroup_tactic = {
+	days = 2
+	sprite = 4
+	group = Heavy_Horse_Archer
+
+	trigger = {
+		phase = melee
+		heavyhorsearchers = 0.1
+	}
+
+	mean_time_to_happen = {
+		days = 15
+		modifier = {
+			factor = 0.1
+			flank_has_leader = yes
+			leader = {
+				martial = 10
+			}
+		}
+		modifier = {
+			factor = 1
+			flank_has_leader = yes
+			leader = {
+				martial = 15
+			}
+		}
+		modifier = {
+			factor = 1.75
+			flank_has_leader = yes
+			leader = {
+				martial = 20
+			}
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.2
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.3
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.4
+		}		
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.5
+		}		
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			heavyhorsearchers = 0.6
+		}		
+	}
+
+	heavyhorsearchers_defensive = 4
+	change_phase_to = skirmish
+
+}

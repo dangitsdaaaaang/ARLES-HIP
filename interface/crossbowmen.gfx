@@ -1,0 +1,76 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "italiangfx_crossbowmen"
+		file = "gfx\models\ibup_heavy_infantry.mesh"
+		
+		animation = { id = "attack"		type = "ibup_archer_attack_animation" }
+		animation = { id = "idle"		type = "ibup_infantry_idle_animation" }
+		animation = { id = "move"		type = "ibup_infantry_moving_animation" }
+		
+		scale = 1.0f
+	}
+
+	pdxmesh = {
+		name = "italiangfx_crossbowmen_weapon"
+		file = "gfx\models\Attachments\ibup_arrow.mesh"
+		
+		animation = { id = "attack"		type = "ibup_arrow_attack_animation" }
+		animation = { id = "idle"		type = "ibup_arrow_idle_animation" }
+		animation = { id = "move"		type = "ibup_arrow_moving_animation" }
+
+		scale = 0.8f
+	} 
+	
+	pdxmesh = {
+		name = "italiangfx_crossbowmen_shield"
+		file = "gfx\models\Attachments\ibup_bow.mesh"
+		
+		animation = { id = "attack"		type = "ibup_bow_attack_animation" }
+		animation = { id = "idle"		type = "ibup_bow_idle_animation" }
+		animation = { id = "move"		type = "ibup_bow_moving_animation" }
+
+		scale = 1.0f
+	}	
+
+	
+	EMFXActorType = {
+		name = "westerngfx_crossbowmen"
+		actorfile = "gfx\models\christian_archer.xac"
+		
+		
+		idle   = "gfx\models\christian_archer_idle.xsm"
+		move   = "gfx\models\christian_archer_moving.xsm"
+		attack = "gfx\models\christian_archer_attack.xsm"
+		
+		scale = 1.0f
+	}
+
+	EMFXActorType = {
+		name = "westerngfx_crossbowmen_weapon"
+		actorfile = "gfx\models\Attachments\Arrow.xac"
+		
+		idle   = "gfx\models\Attachments\Arrow_idle.xsm"
+		move   = "gfx\models\Attachments\Arrow_idle.xsm"
+		attack = "gfx\models\Attachments\Arrow_attack.xsm"
+		
+		scale = 1.0f
+	}
+	
+	EMFXActorType = {
+		name = "westerngfx_crossbowmen_helmet"
+		actorfile = "gfx\models\Attachments\Helmet_02.xac"
+		scale = 1.0f
+	}
+
+	EMFXActorType = {
+		name = "westerngfx_crossbowmen_shield"
+		actorfile = "gfx\models\Attachments\Bow_02.xac"
+		
+		idle   = "gfx\models\Attachments\Bow_idle.xsm"
+		move   = "gfx\models\Attachments\Bow_idle.xsm"
+		attack  = "gfx\models\Attachments\Bow_attack.xsm"
+		
+		scale = 1.0f
+	}
+}

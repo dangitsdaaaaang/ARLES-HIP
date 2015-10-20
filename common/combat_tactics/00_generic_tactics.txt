@@ -1,0 +1,368 @@
+generic_skirmish_tactic = {
+	days = 3 # tactic lasts one day
+	sprite = 4 # index of icon
+	group = skirmish
+
+	trigger = {
+		phase = skirmish
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+}
+generic_melee_tactic = {
+	days = 3 # tactic lasts one day
+	sprite = 3 # index of icon
+	group = melee
+
+	trigger = {
+		phase = melee
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+}
+
+basic_skirmish_tactic = {
+	days = 18
+	sprite = 4
+	group = generic
+
+	trigger = {
+		phase = skirmish
+	}
+
+	mean_time_to_happen = {
+		days = 3
+		modifier = {
+			factor = 0.5
+			flank_has_leader = yes
+			leader = {
+				martial = 10
+			}
+		}
+		modifier = {
+			factor = 1.5
+			flank_has_leader = yes
+			leader = {
+				martial = 15
+			}
+		}
+		modifier = {
+			factor = 1.25
+			flank_has_leader = yes
+			leader = {
+				martial = 20
+			}
+		}
+	}
+
+	light_cavalry_offensive = 0.5
+	camel_cavalry_offensive = 0.5
+	horse_archers_offensive = 0.5
+	archers_offensive = 0.5
+	light_infantry_offensive = 0.25
+}
+
+moderate_skirmish_tactic = {
+	days = 18
+	sprite = 4
+	group = generic
+
+	trigger = {
+		phase = skirmish
+	}
+
+	mean_time_to_happen = {
+		days = 3
+		modifier = {
+			factor = 0.1
+			flank_has_leader = yes
+			leader = {
+				martial = 10
+			}
+		}
+		modifier = {
+			factor = 1.25
+			flank_has_leader = yes
+			leader = {
+				martial = 15
+			}
+		}
+		modifier = {
+			factor = 1.5
+			flank_has_leader = yes
+			leader = {
+				martial = 20
+			}
+		}
+	}
+
+	light_cavalry_offensive = 1
+	camel_cavalry_offensive = 1
+	horse_archers_offensive = 1
+	archers_offensive = 1
+	light_infantry_offensive = 0.5
+}
+
+advanced_skirmish_tactic = {
+	days = 18
+	sprite = 4
+	group = generic
+
+	trigger = {
+		phase = skirmish
+	}
+
+	mean_time_to_happen = {
+		days = 3
+		modifier = {
+			factor = 0.01
+			flank_has_leader = yes
+			leader = {
+				martial = 10
+			}
+		}
+		modifier = {
+			factor = 1
+			flank_has_leader = yes
+			leader = {
+				martial = 15
+			}
+		}
+		modifier = {
+			factor = 1.75
+			flank_has_leader = yes
+			leader = {
+				martial = 20
+			}
+		}
+	}
+
+	light_cavalry_offensive = 2
+	camel_cavalry_offensive = 2
+	horse_archers_offensive = 2
+	archers_offensive = 2
+	light_infantry_offensive = 0.5
+}
+
+failed_skirmish_tactic = {
+	days = 18
+	sprite = 4
+	group = generic
+
+	trigger = {
+		phase = skirmish
+	}
+
+	mean_time_to_happen = {
+		days = 3
+		modifier = {
+			factor = 1.5
+			flank_has_leader = yes
+			leader = {
+				martial = 8
+			}
+		}
+		modifier = {
+			factor = 0.5
+			flank_has_leader = yes
+			leader = {
+				martial = 12
+			}
+		}
+		modifier = {
+			factor = 0.1
+			flank_has_leader = yes
+			leader = {
+				martial = 16
+			}
+		}
+	}
+
+	light_cavalry_offensive = -0.5
+	camel_cavalry_offensive = -0.5
+	horse_archers_offensive = -0.5
+	archers_offensive = -0.5
+	light_infantry_offensive = -0.25
+}
+
+basic_melee_tactic = {
+	days = 18
+	sprite = 2
+	group = generic
+
+	trigger = {
+		phase = melee
+	}
+
+	mean_time_to_happen = {
+		days = 3
+		modifier = {
+			factor = 0.5
+			flank_has_leader = yes
+			leader = {
+				martial = 10
+			}
+		}
+		modifier = {
+			factor = 1.5
+			flank_has_leader = yes
+			leader = {
+				martial = 15
+			}
+		}
+		modifier = {
+			factor = 1.25
+			flank_has_leader = yes
+			leader = {
+				martial = 20
+			}
+		}
+	}
+
+	knights_offensive = 0.5
+	heavy_infantry_offensive = 0.5
+	war_elephants_offensive = 0.5
+	pikemen_defensive = 0.5
+	horse_archers_offensive = 0.25
+	camel_cavalry_offensive = 0.25
+	pikemen_offensive = 0.25
+	crossbowmen_offensive = 0.25
+}
+
+moderate_melee_tactic = {
+	days = 18
+	sprite = 2
+	group = generic
+
+	trigger = {
+		phase = melee
+	}
+
+	mean_time_to_happen = {
+		days = 3
+		modifier = {
+			factor = 0.1
+			flank_has_leader = yes
+			leader = {
+				martial = 10
+			}
+		}
+		modifier = {
+			factor = 1.25
+			flank_has_leader = yes
+			leader = {
+				martial = 15
+			}
+		}
+		modifier = {
+			factor = 1.5
+			flank_has_leader = yes
+			leader = {
+				martial = 20
+			}
+		}
+	}
+
+	knights_offensive = 1
+	heavy_infantry_offensive = 1
+	war_elephants_offensive = 1
+	pikemen_defensive = 1
+	horse_archers_offensive = 0.5
+	camel_cavalry_offensive = 0.5
+	pikemen_offensive = 0.5
+	crossbowmen_offensive = 0.5
+}
+
+advanced_melee_tactic = {
+	days = 18
+	sprite = 2
+	group = generic
+
+	trigger = {
+		phase = melee
+	}
+
+	mean_time_to_happen = {
+		days = 3
+		modifier = {
+			factor = 0.01
+			flank_has_leader = yes
+			leader = {
+				martial = 10
+			}
+		}
+		modifier = {
+			factor = 1
+			flank_has_leader = yes
+			leader = {
+				martial = 15
+			}
+		}
+		modifier = {
+			factor = 1.75
+			flank_has_leader = yes
+			leader = {
+				martial = 20
+			}
+		}
+	}
+
+	knights_offensive = 2
+	heavy_infantry_offensive = 2
+	war_elephants_offensive = 2
+	pikemen_defensive = 2
+	horse_archers_offensive = 1
+	camel_cavalry_offensive = 1
+	pikemen_offensive = 1
+	crossbowmen_offensive = 0.5
+}
+
+failed_melee_tactic = {
+	days = 18
+	sprite = 2
+	group = generic
+
+	trigger = {
+		phase = melee
+	}
+
+	mean_time_to_happen = {
+		days = 3
+		modifier = {
+			factor = 1.5
+			flank_has_leader = yes
+			leader = {
+				martial = 8
+			}
+		}
+		modifier = {
+			factor = 0.5
+			flank_has_leader = yes
+			leader = {
+				martial = 12
+			}
+		}
+		modifier = {
+			factor = 0.1
+			flank_has_leader = yes
+			leader = {
+				martial = 16
+			}
+		}
+	}
+
+	knights_offensive = -0.5
+	heavy_infantry_offensive = -0.5
+	war_elephants_offensive = -0.5
+	pikemen_defensive = -0.5
+	horse_archers_offensive = -0.25
+	camel_cavalry_offensive = -0.25
+	pikemen_offensive = -0.25
+	crossbowmen_offensive = -0.25
+}

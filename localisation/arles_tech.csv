@@ -1,0 +1,26 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#Military Tech
+TECH_METALLURGY;Metallurgy;;;;;;;;;;;;;x
+TECH_METALLURGY_DESC;Developments in metalworking allow us to make more sturdy and powerful close-range weapons.;;;;;;;;;;;;;x
+TECH_HEAVY_ARMOR;Heavy Armour;;;;;;;;;;;;;x
+TECH_HEAVY_ARMOR_DESC;Advances in forging stronger iron and steel armours protect our men from the ravages of sword and arrow.;;;;;;;;;;;;;x
+TECH_RANGED_WEAPONS;Missile Weapons;;;;;;;;;;;;;x
+TECH_RANGED_WEAPONS_DESC;Increasing the range and power of our ranged weapons allow us to strike down our enemies before they ever reach us.;;;;;;;;;;;;;x
+TECH_LIGHT_ARMOR;Light Armour;;;;;;;;;;;;;x
+TECH_LIGHT_ARMOR_DESC;Not all troops fight well encased in iron. Light leather and scale armour allows our light troops the manoeuvrability they need without needlessly sacrificing protection.;;;;;;;;;;;;;x
+TECH_ENGINEERING;Engineering;;;;;;;;;;;;;x
+TECH_ENGINEERING_DESC;A war machine without engineers literally cannot run. Our engineering corps are hard at work in developing the latest engines of war for sieges as well as on the battlefield.;;;;;;;;;;;;;x
+TECH_LOGISTICS;Logistics;;;;;;;;;;;;;x
+TECH_LOGISTICS_DESC;An army marches on its stomach. By filling that stomach for longer periods of time, we can sustain our presence in enemy territory as well as manoeuvre better through our own.;;;;;;;;;;;;;x
+TECH_COMBAT_TACTICS;Military Tactics;;;;;;;;;;;;;x
+TECH_COMBAT_TACTICS_DESC;Our energetic and brilliant commanders devise clever strategems for overcoming the enemy's weaknesses using the brunt of our military strength. ;;;;;;;;;;;;;x
+#Economy Tech
+TECH_AGRICULTURE;Agriculture;;;;;;;;;;;;;x
+TECH_AGRICULTURE_DESC;With each harvest, our fields bear more and more grain and our livestock multiply. The fruits of the labour of the peasantry are a testament to the strength of the realm.;;;;;;;;;;;;;x
+TECH_MERCHANT_GUILDS;Merchant Customs;;;;;;;;;;;;;x
+TECH_MERCHANT_GUILDS_DESC;The rise of a middle class of merchants and artisans in the cities have led to their organisation in guilds and assemblies. While this may create problems in the future, one cannot deny the allure of more gold flowing into their, and by extension our, coffers.;;;;;;;;;;;;;x
+#Cultural Tech
+#TECH_COURTLY_CUSTOMS;Court Culture;;;;;;;;;;;;;x
+#TECH_COURTLY_CUSTOMS_DESC;To strengthen the reach of the ruler over the realm, noble men and women are summoned to court where they aid with duties regarding maintenance of the household and the domain. The larger the court, the more prestigious the ruler.;;;;;;;;;;;;;x
+#TECH_LIT_AND_ARTS;Literature and the Arts;;;;;;;;;;;;;x
+#TECH_LIT_AND_ARTS_DESC;As a testament to the greatness of our dynasty, we are the patrons of a thriving culture of music, art, song and verse. Our renown has spread to distant lands and gifted bards and builders alike travel from afar to offer us their services.;;;;;;;;;;;;;x

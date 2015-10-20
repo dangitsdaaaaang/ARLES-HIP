@@ -1,0 +1,119 @@
+crossbow_volley_tactic = {
+	days = 9
+	sprite = 4
+	group = crossbow
+
+	trigger = {
+		phase = skirmish
+		crossbowmen = 0.1
+	}
+
+	mean_time_to_happen = {
+		days = 5
+		modifier = {
+			factor = 0.1
+			flank_has_leader = yes
+			leader = {
+				martial = 10
+			}
+		}
+		modifier = {
+			factor = 1
+			flank_has_leader = yes
+			leader = {
+				martial = 15
+			}
+		}
+		modifier = {
+			factor = 1.75
+			flank_has_leader = yes
+			leader = {
+				martial = 20
+			}
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			crossbowmen = 0.2
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			crossbowmen = 0.3
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			crossbowmen = 0.4
+		}		
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			crossbowmen = 0.5
+		}		
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			crossbowmen = 0.6
+		}		
+	}
+
+	crossbowmen_offensive = 4
+	change_phase_to = melee
+
+}
+
+crossbow_pavise_tactic = {
+	days = 18
+	sprite = 4
+	group = crossbow
+
+	trigger = {
+		phase = melee
+		crossbowmen = 0.5
+	}
+
+	mean_time_to_happen = {
+		days = 2.5
+		modifier = {
+			factor = 0.1
+			flank_has_leader = yes
+			leader = {
+				martial = 10
+			}
+		}
+		modifier = {
+			factor = 1
+			flank_has_leader = yes
+			leader = {
+				martial = 15
+			}
+		}
+		modifier = {
+			factor = 1.75
+			flank_has_leader = yes
+			leader = {
+				martial = 20
+			}
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			crossbowmen = 0.5
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			crossbowmen = 0.5
+		}		
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			crossbowmen = 0.6
+		}	
+	}
+
+	crossbowmen_defensive = 4
+	change_phase_to = skirmish
+
+}

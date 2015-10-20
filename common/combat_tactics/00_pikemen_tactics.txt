@@ -1,0 +1,99 @@
+heroic_shout_tactic = {
+	days = 8
+	sprite = 4
+	group = pikeman
+
+	trigger = {
+		phase = skirmish
+		pikemen = 0.1
+	}
+
+	mean_time_to_happen = {
+		days = 10
+		modifier = {
+			factor = 0.1
+			flank_has_leader = yes
+			leader = {
+				martial = 10
+			}
+		}
+		modifier = {
+			factor = 1
+			flank_has_leader = yes
+			leader = {
+				martial = 15
+			}
+		}
+		modifier = {
+			factor = 1.75
+			flank_has_leader = yes
+			leader = {
+				martial = 20
+			}
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			pikemen = 0.2
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			pikemen = 0.3
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			pikemen = 0.4
+		}		
+	}
+
+	pikemen_morale = 2
+	change_phase_to = melee
+
+}
+
+wall_of_spears_tactic = {
+	days = 24
+	sprite = 4
+	group = pikemen
+
+	trigger = {
+		phase = melee
+		pikemen = 0.1
+	}
+
+	mean_time_to_happen = {
+		days = 5
+		modifier = {
+			factor = 0.1
+			flank_has_leader = yes
+			leader = {
+				martial = 10
+			}
+		}
+		modifier = {
+			factor = 1
+			flank_has_leader = yes
+			leader = {
+				martial = 15
+			}
+		}
+		modifier = {
+			factor = 1.75
+			flank_has_leader = yes
+			leader = {
+				martial = 20
+			}
+		}
+		modifier = {
+			factor = 2
+			flank_has_leader = yes
+			pikemen = 0.5
+		}
+	}
+
+	pikemen_defensive = 4
+	#change_phase_to = skirmish
+
+}
